@@ -1,0 +1,12 @@
+[6/24/16] {v0.0} Implemented main menu.
+[6/26/16] {v0.1} Tweaked the posting function.
+[6/26/16] {v0.1} Finalized the main menu.
+[6/27/16] {v0.1} Created the options screen.
+[6/27/16] {v0.2} Implemented death (starvation).
+[6/27/16] {v0.2} Installed the notify function.
+[6/28/16] {v0.2} Gave functionality to inventory items.
+[6/28/16] {v0.3} Added sound (fire amibence).
+[6/29/16] {v0.3} Added day and night ambience.
+[6/30/16] {v0.3} Implemented time + day/night cycle.
+[7/1/16] {v0.4} Added support for mobile browsers.
+[7/1/16] {v0.5} Implemented crafting system (torch).

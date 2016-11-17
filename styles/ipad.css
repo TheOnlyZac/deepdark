@@ -1,0 +1,355 @@
+@media all and (orientation: portrait) {
+
+* {
+	color: white;
+	font-family: 'Didact Gothic';
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently */
+	cursor: default;
+	/*outline: 1px solid red;*/
+	transition: background-color 0.2s !important;
+}
+
+.white {
+	background-color: white !important;
+}
+
+::-webkit-scrollbar {
+	display: ;
+	width: 13px; }
+::-webkit-scrollbar-track {
+	background-color: black; }
+::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255, 0.2);
+	border-radius: 3px; }
+::-webkit-scrollbar-button {
+	visibility: none; }
+
+/* .fadein {
+	opacity: 1;
+} */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black !important;
+	/* transition: background-color 10s; */
+	/* transform: scale(2) !important;
+	transform-origin: 0 0 !important; */
+}
+
+.title {
+	margin-top: 25px;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	/* font-family: Monospace; */
+	font-size: 20px;
+}
+
+#gameboxcontainer {
+	height: 20% !important;
+	width: auto;
+}
+
+.gamerectangle {
+	position: inherit;
+	/**/ margin: auto;
+	top: 100%;
+ 	transform: translateY(-100%); /**/
+	outline: 0.5px solid white;
+	width: 300px;
+	height: 350px;
+	border-radius: 3px;
+}
+
+#posts {
+	margin-top: 20px;
+	margin-right: 1px;
+	margin-left: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 218px;
+	max-height: 218px !important;
+	overflow: auto;
+}
+
+#posts p {
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+#notify {
+	text-align: center;
+	margin-bottom: 5px;
+	height: 18px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: calc(100% - 16px);
+	position: relative;
+}
+
+.button {
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: black;
+	outline: 0.5px solid white;
+	transition: background-color 0.2s;
+}
+
+.button:hover {
+	background-color: #0a0a0a;
+}
+
+.button:active {
+	background-color: #050505;
+}
+
+#statusbox {
+	position: relative;
+	margin: auto;
+	width: 200px;
+	height: auto;
+	top: 39% !important;
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+.status {
+	text-align: center;
+}
+
+body.inverted {
+	background-color: white;
+}
+
+body.inverted * {
+	background-color: white !important;
+	color: black !important;
+}
+
+body.inverted #gamebox {
+	border: 1px solid black !important;
+}
+
+body.inverted .button {
+	outline: 1px solid black !important;
+}
+
+body.inverted .button:hover {
+	background-color: #e5e5e5 !important;
+}
+
+body.inverted .button:active {
+	background-color: #f0f0f0 !important;
+}
+
+body.inverted #status {
+	border: 1px solid black !important;
+}
+	
+}
+
+@media all and (orientation: landscape) {
+
+* {
+	color: white;
+	font-family: 'Didact Gothic';
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently */
+	cursor: default;
+	/*outline: 1px solid red;*/
+	transition: background-color 0.2s !important;
+}
+
+.white {
+	background-color: white !important;
+}
+
+::-webkit-scrollbar {
+	display: ;
+	width: 13px; }
+::-webkit-scrollbar-track {
+	background-color: black; }
+::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255, 0.2);
+	border-radius: 3px; }
+::-webkit-scrollbar-button {
+	visibility: none; }
+
+/* .fadein {
+	opacity: 1;
+} */
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black !important;
+	/* transition: background-color 10s; */
+	/* transform: scale(2) !important;
+	transform-origin: 0 0 !important; */
+}
+
+.title {
+	margin-top: 25px;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	/* font-family: Monospace; */
+	font-size: 20px;
+}
+
+#gameboxcontainer {
+	height: 15% !important;
+	width: auto;
+}
+
+.gamerectangle {
+	position: inherit;
+	/**/ margin: auto;
+	top: 100%;
+ 	transform: translateY(-100%); /**/
+	outline: 0.5px solid white;
+	width: 300px;
+	height: 350px;
+	border-radius: 3px;
+}
+
+#posts {
+	margin-top: 20px;
+	margin-right: 1px;
+	margin-left: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 218px;
+	max-height: 218px !important;
+	overflow: auto;
+}
+
+#posts p {
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+#notify {
+	text-align: center;
+	margin-bottom: 5px;
+	height: 18px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: calc(100% - 16px);
+	position: relative;
+}
+
+.button {
+	display: inline-block;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background-color: black;
+	outline: 0.5px solid white;
+	transition: background-color 0.2s;
+}
+
+.button:hover {
+	background-color: #0a0a0a;
+}
+
+.button:active {
+	background-color: #050505;
+}
+
+#statusbox {
+	position: relative;
+	margin: auto;
+	width: 200px;
+	height: auto;
+	top: 54% !important;
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+.status {
+	text-align: center;
+}
+
+body.inverted {
+	background-color: white;
+}
+
+body.inverted * {
+	background-color: white !important;
+	color: black !important;
+}
+
+body.inverted #gamebox {
+	border: 1px solid black !important;
+}
+
+body.inverted .button {
+	outline: 1px solid black !important;
+}
+
+body.inverted .button:hover {
+	background-color: #e5e5e5 !important;
+}
+
+body.inverted .button:active {
+	background-color: #f0f0f0 !important;
+}
+
+body.inverted #status {
+	border: 1px solid black !important;
+}
+	
+}
